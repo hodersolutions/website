@@ -1,1 +1,1 @@
-web: gunicorn xyzexamonline
+web: gunicorn run
