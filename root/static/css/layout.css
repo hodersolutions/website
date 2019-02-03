@@ -1,6 +1,16 @@
+@font-face {
+    font-family: rationaltwdisplaydemo-light;
+    src: url("fonts/rationaltwdisplaydemo-light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: rationaltwdisplaydemo-semibold;
+    src: url("fonts/rationaltwdisplaydemo-semibold.otf") format("opentype");
+}
+
 .logo {
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
 }
 
 #navbarsOptions {
@@ -14,20 +24,13 @@
   padding-bottom: 0px;
 }
 
-.square-success {
-  border-color: #28a745;
-  border-bottom-style: none;
-  color: #3498db;
-  padding-bottom: 0px;
-}
-
 #companyName {
+  font-family: 'rationaltwdisplaydemo-light', serif;
   vertical-align: middle;
   margin: 0px 10px 0px 5px;
-  font-size: 30px;
+  font-size: 33px;
   letter-spacing: 5px;
   font-weight: 400;
-  color: white;
 }
 
 .icon {
