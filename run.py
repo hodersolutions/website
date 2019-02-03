@@ -10,5 +10,3 @@
 # Info:        Flask, follows Model, Template, View model
 #-------------------------------------------------------------------------------
 from root import application
-
-application.run()
