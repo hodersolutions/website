@@ -3,22 +3,22 @@
   height: 50px;
 }
 
-.footer {
-  height: 5vh;  
+#navbarsOptions {
+  padding-top: 10px;
 }
 
 .square-primary {
-  border-color: #007bff;
+  border-color: #3498db;
   border-bottom-style: none;
   color: #28a745;
-  padding-bottom: 0px;  
+  padding-bottom: 0px;
 }
 
 .square-success {
   border-color: #28a745;
   border-bottom-style: none;
-  color: #007bff;
-  padding-bottom: 0px;  
+  color: #3498db;
+  padding-bottom: 0px;
 }
 
 #companyName {
@@ -27,6 +27,7 @@
   font-size: 30px;
   letter-spacing: 5px;
   font-weight: 400;
+  color: white;
 }
 
 .icon {
@@ -43,37 +44,35 @@
 }
 
 .dropdown-text:hover {
-  color: #007bff;
+  color: #3498db;
   font-weight: 400;
   margin-right: 5px;
   margin-left: 5px;
 }
 
 .icon-text {
-  color: #B2BABB;
+  color: #fff;
   font-weight: 400;
   margin-right: 5px;
   margin-left: 5px;
 }
 
 .icon-text:hover {
-  color: #007bff;
+  color: #28a745;
   font-weight: 400;
   margin-right: 5px;
   margin-left: 5px;
 }
 
 .navbar {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-#navbarsOptions {
-  padding-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  display: table !important;
+  background-color: #003a4d !important;
 }
 
 .border-button {
-  border: 1px solid #B2BABB;
+  border: 1px solid #b2babb;
   border-radius: 2px;
 }
 
@@ -88,6 +87,7 @@
   margin-right: 5px;
   margin-left: 5px;
 }
+
 /* @media (min-width: 576px) { .body {background-color: red; } }
 
 @media (min-width: 768px) {.body {background-color:green; } }

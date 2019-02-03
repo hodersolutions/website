@@ -11,4 +11,4 @@
 #-------------------------------------------------------------------------------
 from root import application
 
-# application.run(debug=False)
+application.run()
