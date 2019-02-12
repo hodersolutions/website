@@ -9,6 +9,14 @@ def index(*args, **kwargs):
 def about(*args, **kwargs):
 	return render_template('about.html')
 
+@application.route("/courses")
+def courses(*args, **kwargs):
+	return render_template('courses.html')
+
+@application.route("/products")
+def products(*args, **kwargs):
+	return render_template('products.html')
+
 @application.route("/careers")
 def careers(*args, **kwargs):
 	return render_template('careers.html')

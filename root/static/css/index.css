@@ -1,8 +1,18 @@
+@font-face {
+    font-family: rationaltwdisplaydemo-light;
+    src: url("fonts/rationaltwdisplaydemo-light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: rationaltwdisplaydemo-semibold;
+    src: url("fonts/rationaltwdisplaydemo-semibold.otf") format("opentype");
+}
+
 #splashScreen {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 85vh;
     width: 100%;
     color: white;
     text-align: center;
@@ -10,4 +20,8 @@
 
 .splash-message {
 	padding-top: 100px;
+}
+
+.company-name {
+	font-family: 'rationaltwdisplaydemo-light', serif;
 }

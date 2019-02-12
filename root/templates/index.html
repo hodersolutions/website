@@ -7,7 +7,7 @@
 			<script src={{ url_for('static', filename='js/index.js') }}></script>
 {% endblock scripts %}
 {% block content %}
-	<div id="splashScreen" class="container-fluid">
+	<div id="splashScreen" class="container-fluid splash-screen">
 		<p class="display-4 splash-message">
 			{% with messages=get_flashed_messages(with_categories=true) %}
                 {% if messages %}
@@ -15,7 +15,7 @@
                         Successfully registered, <a href="/signin"><span class="text-success">{{ message }}</span></a>
                     {% endfor %}
                 {% else %}
-					Welcome to <span class="text-primary">h o d e r . i n</span>
+					<span class="text-success">Welcome to </span><span class="text-primary company-name">hoder.in</span>
 				{% endif %}
             {% endwith %}			
 		</p>
